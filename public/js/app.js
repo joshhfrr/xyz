@@ -2219,6 +2219,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -40436,7 +40437,7 @@ var render = function() {
                     _c(
                       "router-link",
                       {
-                        staticClass: "hover:text-blue-600",
+                        staticClass: "hover:text-blue-600 hover:no-underline",
                         attrs: { to: "/users" }
                       },
                       [
@@ -40469,7 +40470,7 @@ var render = function() {
                     _c(
                       "router-link",
                       {
-                        staticClass: "hover:text-blue-600",
+                        staticClass: "hover:text-blue-600 hover:no-underline",
                         attrs: { to: "/posts" }
                       },
                       [
@@ -40502,7 +40503,7 @@ var render = function() {
                     _c(
                       "router-link",
                       {
-                        staticClass: "hover:text-blue-600",
+                        staticClass: "hover:text-blue-600 hover:no-underline",
                         attrs: { to: "/comments" }
                       },
                       [
@@ -40537,7 +40538,7 @@ var render = function() {
                     _c(
                       "router-link",
                       {
-                        staticClass: "hover:text-blue-600",
+                        staticClass: "hover:text-blue-600 hover:no-underline",
                         attrs: { to: "/photos" }
                       },
                       [
@@ -40570,7 +40571,7 @@ var render = function() {
                     _c(
                       "router-link",
                       {
-                        staticClass: "hover:text-blue-600",
+                        staticClass: "hover:text-blue-600 hover:no-underline",
                         attrs: { to: "/albums" }
                       },
                       [
@@ -40587,6 +40588,39 @@ var render = function() {
                           _c("div", { staticClass: "info-box-content" }, [
                             _c("span", { staticClass: "info-box-text" }, [
                               _vm._v("Albums")
+                            ])
+                          ])
+                        ])
+                      ]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "col-12 col-sm-6 col-md-3 px-4" },
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "hover:text-blue-600 hover:no-underline",
+                        attrs: { to: "/albums" }
+                      },
+                      [
+                        _c("div", { staticClass: "info-box shadow-xl" }, [
+                          _c(
+                            "span",
+                            {
+                              staticClass:
+                                "info-box-icon bg-gray-200 elevation-1"
+                            },
+                            [_c("i", { staticClass: "fas fa-list" })]
+                          ),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "info-box-content" }, [
+                            _c("span", { staticClass: "info-box-text" }, [
+                              _vm._v("Todos")
                             ])
                           ])
                         ])

@@ -11,7 +11,7 @@
                             <div class="row justify-content-center mb-3">
 
                                 <div class="col-12 col-sm-6 col-md-3 px-4">
-                                    <router-link to="/users" class="hover:text-blue-600">
+                                    <router-link to="/users" class="hover:text-blue-600 hover:no-underline">
                                     <div class="info-box shadow-xl">
                                         <span class="info-box-icon bg-gray-200 elevation-1"><i class="fas fa-user"></i></span>
 
@@ -23,7 +23,7 @@
                                 </div>
 
                                 <div class="col-12 col-sm-6 col-md-3 px-4">
-                                    <router-link to="/posts" class="hover:text-blue-600">
+                                    <router-link to="/posts" class="hover:text-blue-600 hover:no-underline">
                                     <div class="info-box shadow-xl">
                                         <span class="info-box-icon bg-gray-200 elevation-1"><i class="fas fa-sticky-note"></i></span>
 
@@ -35,7 +35,7 @@
                                 </div>
 
                                 <div class="col-12 col-sm-6 col-md-3 px-4">
-                                    <router-link to="/comments" class="hover:text-blue-600">
+                                    <router-link to="/comments" class="hover:text-blue-600 hover:no-underline">
                                     <div class="info-box shadow-xl">
                                         <span class="info-box-icon bg-gray-200 elevation-1"><i class="fas fa-comments"></i></span>
 
@@ -50,7 +50,7 @@
 
                             <div class="row justify-content-center mb-3">
                                 <div class="col-12 col-sm-6 col-md-3 px-4">
-                                    <router-link to="/photos" class="hover:text-blue-600">
+                                    <router-link to="/photos" class="hover:text-blue-600 hover:no-underline">
                                     <div class="info-box shadow-xl">
                                         <span class="info-box-icon bg-gray-200 elevation-1"><i class="fas fa-camera"></i></span>
 
@@ -62,7 +62,7 @@
                                 </div>
 
                                 <div class="col-12 col-sm-6 col-md-3 px-4">
-                                    <router-link to="/albums" class="hover:text-blue-600">
+                                    <router-link to="/albums" class="hover:text-blue-600 hover:no-underline">
                                     <div class="info-box shadow-xl">
                                         <span class="info-box-icon bg-gray-200 elevation-1"><i class="fas fa-image"></i></span>
 
@@ -73,15 +73,16 @@
                                     </router-link>
                                 </div>
 
-                                <!-- <div class="col-12 col-sm-6 col-md-3 px-4">
-                                    <div class="info-box">
-                                        <span class="info-box-icon bg-gray-200 elevation-1"><i class="fas fa-comments"></i></span>
-
+                                <div class="col-12 col-sm-6 col-md-3 px-4">
+                                    <router-link to="/albums" class="hover:text-blue-600 hover:no-underline">
+                                    <div class="info-box shadow-xl">
+                                        <span class="info-box-icon bg-gray-200 elevation-1"><i class="fas fa-list"></i></span>
                                         <div class="info-box-content">
-                                            <span class="info-box-text">Comments</span>
+                                            <span class="info-box-text">Todos</span>
                                         </div>
                                     </div>
-                                </div> -->
+                                    </router-link>
+                                </div>
                                 
                             </div>
                         </div>
